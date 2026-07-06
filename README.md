@@ -1,390 +1,176 @@
-# contents
+# Artistic School of Business (ASB) – Landing Page
 
-# Navbar
+A modern, responsive landing page developed for the **Artistic School of Business (ASB)** as part of a frontend design and development assignment.
 
+## 🌐 Live Demo
 
-Home
-About ASB
-Programs
-Curriculum
-Why ASB
-
-
-**Right Side**
-
-
-contact us
-
+**Website:**  
+http://artistic-website-one.vercel.app/
 
 ---
 
-# Home Page
+## 📖 Project Overview
 
-## 1. Hero
+This project showcases a premium educational landing page that presents the vision and identity of the Artistic School of Business.
 
-* Strong headline
-* Short description
-* Apply Now
-* Explore Programs
+The website was designed with a strong focus on:
 
----
+- Modern UI/UX
+- Responsive Design
+- Clean Information Architecture
+- Smooth Animations
+- Professional Typography
+- Reusable React Components
 
-## 2. Who We Are
-
-Show only a short introduction (2–3 lines).
-
-```
-Who We Are
-
-ASB is an execution-driven entrepreneurial academy focused on creating
-future founders, innovators, and business leaders.
-```
-
-Button
-
-```
-Read More →
-```
-
-(goes to About page)
+The website was implemented as a **Single Page Application (SPA)** to demonstrate the overall user experience within the assignment timeline.
 
 ---
 
-## 3. Vision & Mission
+## ✨ Features
 
-Two cards
-
-```
-Vision
-
-Mission
-```
-
-Only a summary.
-
-Button
-
-```
-Learn More
-```
+- Responsive Design (Desktop, Tablet & Mobile)
+- Modern Hero Banner
+- About ASB
+- Vision & Mission
+- Traditional Education vs Market Reality
+- ASB Execution Model
+- Flagship Program
+- Featured Programs
+- Competitive Advantages
+- Contact CTA
+- Premium Footer
+- Smooth Framer Motion Animations
 
 ---
 
-## 4. Why ASB
+## 🛠️ Tech Stack
 
-Show only 4 cards
-
-* Practical Learning
-* Industry Mentorship
-* Startup Ecosystem
-* Business Execution
-
-Button
-
-```
-Explore Why ASB
-```
+- React.js
+- Vite
+- Bootstrap 5
+- Framer Motion
+- Bootstrap Icons
+- CSS3
+- Git & GitHub
+- Vercel
 
 ---
 
-## 5. Programs
-
-Show only 4–6 featured programs.
-
-Example
+## 📂 Project Structure
 
 ```
-Master in Entrepreneurial Business Building
-
-Digital Brand Building
-
-Startup Launch Accelerator
-
-AI Tools for Business
-```
-
-Button
-
-```
-View All Programs
-```
-
----
-
-## 6. Curriculum Journey
-
-Instead of showing the complete roadmap,
-
-Show
-
-```
-Idea
-
-↓
-
-Research
-
-↓
-
-Brand
-
-↓
-
-Build
-
-↓
-
-Launch
-```
-
-Button
-
-```
-View Complete Curriculum
-```
-
----
-
-## 7. Competitive Advantages
-
-Show 3 cards
-
-```
-Industry Heritage
-
-Execution First
-
-Business Ecosystem
-```
-
----
-
-## 8. Let's Connect
-
-Instead of a separate contact section,
-
-Create a beautiful CTA.
-
-```
-Ready to Build Your Future?
-
-Let's Connect
-
-Apply Now
-Contact Us
-```
-
----
-
-## 9. Footer
-
----
-
-# About Page
-
-Full details
-
-```
-Who We Are
-
-Vision
-
-Mission
-
-Learning Philosophy
-
-Core Learning Outcomes
-
-Long-term Vision
-```
-
----
-
-# Programs Page
-
-All programs from the PDF.
-
-Beautiful cards.
-
----
-
-# Curriculum Page
-
-Complete roadmap.
-
-Timeline.
-
-Detailed explanation.
-
----
-
-# Why ASB Page
-
-Everything from
-
-* Traditional Education vs Market Reality
-* Execution Model
-* Competitive Advantages
-* Scaling Strategy
-
----
-
-# Contact Page
-
-Instead of just a form, make it look premium.
-
-```
-Let's Connect
-
-Have questions?
-
-Want to know more about ASB?
-
-Ready to start your entrepreneurial journey?
-```
-
-Then
-
-```
-Contact Form
-
-Name
-
-Email
-
-Phone
-
-Message
-
-Apply Now
-```
-
-Then
-
-```
-Address
-
-Phone
-
-Email
-
-Working Hours
-```
-
-Then
-
-Google Map (optional)
-
----
-
-# Some extra sections you can add **without inventing content**
-
-These are based on the PDF's themes, not made-up facts.
-
-### Learning Journey
-
-```
-Dream
-
-↓
-
-Learn
-
-↓
-
-Execute
-
-↓
-
-Build
-
-↓
-
-Launch
-
-↓
-
-Lead
-```
-
----
-
-### Our Philosophy
-
-Use quotes from the Vision/Mission.
-
----
-
-### Business Mindset
-
-Show icons like
-
-```
-Innovation
-
-Leadership
-
-Execution
-
-Growth
-
-Creativity
-```
-
----
-
-### Learning Outcomes
-
-Convert the PDF bullets into icon cards.
-
----
-
-### Entrepreneur Journey
-
-A visual roadmap from student to entrepreneur.
-
----
-
-### Call to Action
-
-```
-Become the Next Generation
-Business Leader
-
-Apply Today
-```
-
----
-
-# Final Structure
-
-```
-Home
+src/
 │
-├── Hero
-├── Who We Are
-├── Vision & Mission
-├── Why ASB
-├── Featured Programs
-├── Curriculum Preview
-├── Competitive Advantages
-├── Let's Connect
-└── Footer
-
-About ASB
-Programs
-Curriculum
-Why ASB
-Contact
+├── assets/
+│
+├── components/
+│   ├── Navbar
+│   ├── Banner
+│   ├── WhoWeAre
+│   ├── VisionMission
+│   ├── EducationGap
+│   ├── ExecutionModel
+│   ├── FlagshipProgram
+│   ├── FeaturedPrograms
+│   ├── CompetitiveAdvantages
+│   ├── ContactCTA
+│   └── Footer
+│
+├── pages/
+│
+├── styles/
+│
+├── App.jsx
+└── main.jsx
 ```
 
-## One suggestion that will impress them
+---
 
-Since this is for **The Artistic Company**, add subtle animations and storytelling instead of just displaying text. For example:
+## 🚀 Installation
 
-* Fade in each section as the user scrolls.
-* Use animated counters where the PDF mentions growth or milestones.
-* Make program cards lift on hover.
-* Add a smooth page transition between routes.
+Clone the repository
 
-This shows not only that you can build a website, but that you understand how to create a modern, engaging user experience.
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project
+
+```bash
+cd artistic-website
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎨 Design Approach
+
+The provided reference website was used **only for inspiration** regarding user experience and content flow.
+
+The interface, component structure, animations, layouts, and styling were designed and implemented as an original frontend solution based on the ASB project brief.
+
+The focus was on creating a premium educational website with a clean and engaging user experience.
+
+---
+
+## 📝 Content
+
+The content used throughout the website is based on the information provided in the assignment document.
+
+To improve readability and presentation, AI assistance was used **only to refine and organize the wording** while preserving the meaning of the original content.
+
+---
+
+## ⚠️ Notes
+
+This assignment was completed within a limited time frame.
+
+As a result:
+
+- The project is implemented as a **Single Page Application (Landing Page)**.
+- Some detailed pages (such as the complete Course Portfolio, 6-Month Roadmap, Pricing Strategy, and Scaling Strategy) were planned but not fully implemented.
+- Most content is currently hardcoded to demonstrate the frontend implementation and UI.
+
+With additional time, the project can be further enhanced by:
+
+- Creating dedicated inner pages
+- Making the content data-driven
+- Adding CMS/API integration
+- Improving accessibility
+- Optimizing performance
+- Adding additional animations and interactions
+
+---
+
+## 📧 Author
+
+**Vasanth**
+
+Frontend Developer
+
+---
+
+Thank you for reviewing this project.
